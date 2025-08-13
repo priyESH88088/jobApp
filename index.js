@@ -8,7 +8,7 @@ app.use( "/api/v1/job",router);
 
 app.use(express.urlencoded());
 
-mongoose.connect("mongodb://127.0.0.1:27017/jobApp")
+mongoose.connect("mongodb+srv://priyesh88088:jAeYEXcz83r9fkx3@cluster0.bdrjv2g.mongodb.net/")
 .then(()=>console.log("Db connected"))
 .catch(err=>
     console.log("Error in Connecting",err)
